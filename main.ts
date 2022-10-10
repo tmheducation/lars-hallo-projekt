@@ -23,7 +23,7 @@ basic.showLeds(`
     `)
 music.playMelody("C5 B A G F E D C ", 120)
 basic.showString("tschüss!")
-music.playMelody("C A - C5 B E B C5 ", 120)
+music.playMelody("C A F C5 B E B C5 ", 120)
 basic.forever(function () {
 	
 })
