@@ -26,6 +26,34 @@ input.onButtonEvent(Button.AB, input.buttonEventClick(), function () {
         # # # # #
         # # # # #
         `)
+    basic.showLeds(`
+        . . . . .
+        # # # # #
+        # # # # #
+        # # # # #
+        # # # # #
+        `)
+    basic.showLeds(`
+        # # # # #
+        # # # # #
+        # # # # #
+        # # # # #
+        # # # # #
+        `)
+    basic.showLeds(`
+        # # # # #
+        # # # # #
+        # # # # #
+        # # # # #
+        . . . . .
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
 })
 input.onButtonEvent(Button.B, input.buttonEventClick(), function () {
     music.playMelody("C5 G E B C A E C5 ", 120)

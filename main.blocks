@@ -40,4 +40,28 @@
         # # # # # 
         # # # # # 
         # # # # #
-        `</field></block></next></block></next></block></statement></block><block type="device_forever" id="j|LifN:pO^VgCRwqGj7|" x="228" y="3495"/></xml>
+        `</field><next><block type="device_show_leds" id="G6|~~)J1Yd{W8N%H/OMR"><field name="LEDS">`
+        . . . . . 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="z(0XwwZF{D9~zlAS*TaO"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="Jw4a+u8*tN#zxuEJ1-D#"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="bkUU]xLt(9+Md2eRJg9k"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_forever" id="j|LifN:pO^VgCRwqGj7|" x="198" y="4158"/></xml>
