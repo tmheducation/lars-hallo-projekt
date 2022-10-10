@@ -16,4 +16,4 @@
         # # # # # 
         # # # # # 
         # # # # #
-        `</field></block></next></block></next></block></next></block></next></block></statement></block><block type="device_forever" id="j|LifN:pO^VgCRwqGj7|" x="1" y="869"/></xml>
+        `</field><next><block type="playMelody" id="f%b9IoVFmIBE~G`M]T^D"><value name="melody"><shadow type="melody_editor" id="yZ@@T)Nj-a(zke^#Y2CX"><field name="melody">"C5 B A G F E D C "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="TPwA;#]0H/`b;kTrCS4`"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_forever" id="j|LifN:pO^VgCRwqGj7|" x="3" y="921"/></xml>
