@@ -1,4 +1,5 @@
 input.onPinTouchEvent(TouchPin.P1, input.buttonEventDown(), function () {
+    music.playMelody("B - - - - - - - ", 120)
     basic.setLedColor(0xffff00)
 })
 input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
@@ -90,27 +91,17 @@ input.onGesture(Gesture.Shake, function () {
         `)
 })
 input.onPinTouchEvent(TouchPin.P2, input.buttonEventDown(), function () {
+    music.playMelody("C D E F G A B C5 ", 768)
     basic.setLedColor(0x007fff)
 })
 input.onPinTouchEvent(TouchPin.P3, input.buttonEventDown(), function () {
-    basic.setLedColor(0xff0000)
+    led.plot(4, 4)
+    led.plot(3, 3)
+    led.plot(2, 2)
+    led.plot(1, 1)
 })
 basic.showString("Hallo Lars")
 music.playMelody("C D E F G A B C5 ", 120)
-basic.showLeds(`
-    # # # # #
-    # # # # #
-    # # # # #
-    # # # # #
-    # # # # #
-    `)
-basic.showLeds(`
-    . . . . .
-    . . . . .
-    . . . . .
-    . . . . .
-    . . . . .
-    `)
 basic.showLeds(`
     # # # # #
     # # # # #
