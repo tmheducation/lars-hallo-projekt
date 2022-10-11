@@ -3,7 +3,7 @@ input.onPinTouchEvent(TouchPin.P1, input.buttonEventDown(), function () {
     basic.setLedColor(0xffff00)
 })
 input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
-    motors.motorPower(100)
+    music.playMelody("C5 B A G F E D C ", 11211)
 })
 input.onButtonEvent(Button.AB, input.buttonEventClick(), function () {
     basic.showLeds(`
@@ -109,10 +109,9 @@ basic.showLeds(`
     # # # # #
     # # # # #
     `)
-basic.setLedColor(0x00ff00)
-music.playMelody("C5 B A G F E D C ", 11211)
 basic.showString("tschüss!")
 music.playMelody("C A F C5 B E B C5 ", 120)
+basic.setLedColor(0x00ff00)
 basic.forever(function () {
 	
 })
